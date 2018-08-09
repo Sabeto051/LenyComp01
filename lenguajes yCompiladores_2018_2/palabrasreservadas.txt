@@ -1,0 +1,27 @@
+and,Produce Booleano a partir de condición,Operador Lógico,Palabra Reservada
+def,inicio de una función,Palabra Reservada
+for,
+is
+raise
+assert
+if
+else
+elif
+from
+lambda
+return
+break
+global
+not
+try
+class
+except
+or
+while
+continue
+except
+import
+yield
+finally
+in
+print

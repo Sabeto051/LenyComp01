@@ -1,0 +1,7 @@
+==,Compara dos elementos,Operador Relacional,Separador
+!=,Compara dos elementos,Operador Relacional,Separador
+<>,Compara dos elementos,Operador Relacional,Separador
+>,Compara dos elementos,Operador Relacional,Separador
+<,Compara dos elementos,Operador Relacional,Separador
+<=,Compara dos elementos,Operador Relacional,Separador
+>=,Compara dos elementos,Operador Relacional,Separador
