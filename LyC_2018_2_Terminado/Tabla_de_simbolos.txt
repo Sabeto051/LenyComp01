@@ -41,3 +41,5 @@ print,Imprime en pantalla,Palabra Reservada
  (,Agrupador de inicio,Separador
  ),Agrupador de fin,Separador
  :,Inicio de bloque de texto,Separador
+ \n,Separador de Sentencias,Separador
+ \t,Separador de Bloques de codigo,Separador
