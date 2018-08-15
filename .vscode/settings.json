@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\Personal\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    //"python.pythonPath": "C:\\Users\\Personal\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    "python.pythonPath": "/home/santiagobedoya/.platformio/penv/bin/python"
 }
