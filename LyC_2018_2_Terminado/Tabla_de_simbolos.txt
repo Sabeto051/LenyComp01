@@ -19,17 +19,17 @@ import,importa una librería,Palabra Reservada
 finally,finaliza una sentencia,Palabra Reservada
 in,Se encuntra almenos una vez en lista,Palabra Reservada
 print,Imprime en pantalla,Palabra Reservada
-+,Opera dos elementos,Operador Aritmetico,Separador
--,Opera dos elementos,Operador Aritmetico,Separador
-*,Opera dos elementos,Operador Aritmetico,Separador
-/,Opera dos elementos,Operador Aritmetico,Separador
++,Suma dos elementos,Operador Aritmetico,Separador
+-,Resta dos elementos,Operador Aritmetico,Separador
+*,Multiplica dos elementos,Operador Aritmetico,Separador
+/,Divide dos elementos,Operador Aritmetico,Separador
 //,Opera dos elementos,Operador Aritmetico,Separador
-**,Opera dos elementos,Operador Aritmetico,Separador
-%,Opera dos elementos,Operador Aritmetico,Separador
-=,Opera dos elementos,Operador Aritmetico,Separador
-+=,Opera dos elementos,Operador Aritmetico,Separador
--=,Opera dos elementos,Operador Aritmetico,Separador
-*=,Opera dos elementos,Operador Aritmetico,Separador
+**,Potencia dos elementos,Operador Aritmetico,Separador
+%,Modula dos elementos,Operador Aritmetico,Separador
+=,Iguala dos elementos,Operador Aritmetico,Separador
++=,Suma dos elementos,Operador Aritmetico,Separador
+-=,Resta dos elementos,Operador Aritmetico,Separador
+*=,Multiplica dos elementos,Operador Aritmetico,Separador
 ==,Compara dos elementos,Operador Relacional,Separador
 !=,Compara dos elementos,Operador Relacional,Separador
 <>,Compara dos elementos,Operador Relacional,Separador
@@ -37,9 +37,15 @@ print,Imprime en pantalla,Palabra Reservada
 <,Compara dos elementos,Operador Relacional,Separador
 <=,Compara dos elementos,Operador Relacional,Separador
 >=,Compara dos elementos,Operador Relacional,Separador
- ,Separador Natural,Separador
-(,Agrupador de inicio,Separador
-),Agrupador de fin,Separador
+.,Permite acceder a una función de la clase,Separador
+",Agrupador de caracteres,Separador
+ ,Separador Espacio,Separador
+{,Agrupador de inicio llave,Separador
+},Agrupador de fin llave,Separador
+[,Agrupador de inicio corchete,Separador
+],Agrupador de fin corchete,Separador
+(,Agrupador de inicio paréntesis,Separador
+),Agrupador de fin paréntesis,Separador
 :,Inicio de bloque de texto,Separador
-\n,Separador de Sentencias,Separador
-\t,Separador de Bloques de codigo,Separador
+\t,Separador Tab,Separador
+\n,Separador de Sentencias Enter,Separador

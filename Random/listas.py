@@ -1,19 +1,17 @@
-def addNums(n):
-    v=[]
-    for i in range(n):
-        v.append(i)
-    return v
-v1= addNums(7)
-v2= addNums(8)
-v3= addNums(9)
-v4= addNums(10)
-m=[]
-m.append(v1)
-m.append(v2)
-m.append(v3)
-m.append(v4)
-for i in range(len(m)):
-    print(m[i])
+"""ss = ["\tPeeerrrooo"]
+oo = ["cac","6565"]
+pp = ["asass","sfsfsfs", "\t", "sgrsrsg", "dsdvsdv"]
+matrix = [oo,pp,oo]
 
-vv= ["asdfghjk", "tttt","123456"]
-print (vv[2][2])
+mm =["qqqq", "nnnn", "kkkk"]
+matrix2 = [mm,ss]
+
+
+for a in matrix:
+    matrix2.append(a)
+for a in matrix2:
+    print(a)"""
+
+quiai= "huevos--Pan--leche--Azucar"
+ppas= quiai.split("--")
+print(ppas)
