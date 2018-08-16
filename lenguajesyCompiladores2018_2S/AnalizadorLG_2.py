@@ -58,4 +58,4 @@ voperadores = sentenceSplit()
 for i in range(len(voperadores)):
     #print(voperadores[i] + "    ||  Operador:   " + operadortipo[i] + "    ||  Linea:  "+ str(code.index(voperadores[i])+1 ) )
     print ("{0}    ||  Operador:   {1}    ||  Linea:  {2}".format(voperadores[i],operadortipo[i],code.index(voperadores[i])+1))
-print ("\n\n\n\nTotal de operadores aritmeticos encontrados:  " + str(len(voperadores)))
+print ("\n\n\n\nTotal de operadores aritmeticos encontrados:  {0}".format(len(voperadores)))
