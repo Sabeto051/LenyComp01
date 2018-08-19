@@ -1,5 +1,8 @@
-file = open("lenguajes yCompiladores_2018_2/operadoresR.txt")
-operadores = list(file) #Convierte el texto a una lista
-file.close()
+with open('Random/Tabla_de_simbolos.txt') as file:
+    tabla = [[str(element) for element in line.split(',')]for line in file]
 
-print (operadores)
+tabla2 = ''.join([ '-'.join(line) for line in tabla]   )
+
+
+with open ('Random/Tabla_de_simbolos2.txt', 'w') as file:
+    file.write(tabla2)

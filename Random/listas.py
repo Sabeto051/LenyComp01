@@ -1,17 +1,4 @@
-"""ss = ["\tPeeerrrooo"]
-oo = ["cac","6565"]
-pp = ["asass","sfsfsfs", "\t", "sgrsrsg", "dsdvsdv"]
-matrix = [oo,pp,oo]
+qq = ["jorge-camilo-Sahara-Pedro-Cagada","Hola-soy-Santos","y-gobierno-como-canto"]
 
-mm =["qqqq", "nnnn", "kkkk"]
-matrix2 = [mm,ss]
-
-
-for a in matrix:
-    matrix2.append(a)
-for a in matrix2:
-    print(a)"""
-
-quiai= "huevos--Pan--leche--Azucar"
-ppas= quiai.split("--")
-print(ppas)
+quiai = [[j for j in i.split('-')]for i in qq]
+print (quiai)

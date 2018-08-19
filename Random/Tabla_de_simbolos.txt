@@ -1,0 +1,51 @@
+and,Produce Booleano a partir de condición,Operador Lógico,Palabra Reservada
+def,inicio de una función,Palabra Reservada
+for,Inicio ciclo for,Ciclo,Palabra Reservada
+is,Perteneciente a algo,Palabra Reservada
+if,Inicio de un condicional,Condicional,Palabra Reservada
+else,Parte del condicional for,Condicional,Palabra Reservada
+elif,Parte del condicional for,Condicional,Palabra Reservada
+from,Pertenece a algo,Palabra Reservada
+return,Finaliza la función,Palabra Reservada
+break,Finaliza el ciclo,Palabra Reservada
+not,Produce Booleano a partir de condición,Operador Lógico,Palabra Reservada
+try,Inicio de una excepción,Palabra Reservada
+class,Inicio de una clase,Palabra Reservada
+except,Produce una excepcion en la expresión,Palabra Reservada
+or,Produce Booleano a partir de condición,Operador Lógico,Palabra Reservada
+while,Inicio del ciclo while,Ciclo,Palabra Reservada
+continue,Produce una continuación en el ciclo,Palabra Reservada
+import,importa una librería,Palabra Reservada
+finally,finaliza una sentencia,Palabra Reservada
+in,Se encuntra almenos una vez en lista,Palabra Reservada
+print,Imprime en pantalla,Palabra Reservada
++,Suma dos elementos,Operador Aritmetico,Separador
+-,Resta dos elementos,Operador Aritmetico,Separador
+*,Multiplica dos elementos,Operador Aritmetico,Separador
+/,Divide dos elementos,Operador Aritmetico,Separador
+//,Opera dos elementos,Operador Aritmetico,Separador
+**,Potencia dos elementos,Operador Aritmetico,Separador
+%,Modula dos elementos,Operador Aritmetico,Separador
+=,Iguala dos elementos,Operador Aritmetico,Separador
++=,Suma dos elementos,Operador Aritmetico,Separador
+-=,Resta dos elementos,Operador Aritmetico,Separador
+*=,Multiplica dos elementos,Operador Aritmetico,Separador
+==,Compara dos elementos,Operador Relacional,Separador
+!=,Compara dos elementos,Operador Relacional,Separador
+<>,Compara dos elementos,Operador Relacional,Separador
+>,Compara dos elementos,Operador Relacional,Separador
+<,Compara dos elementos,Operador Relacional,Separador
+<=,Compara dos elementos,Operador Relacional,Separador
+>=,Compara dos elementos,Operador Relacional,Separador
+.,Permite acceder a una función de la clase,Separador
+",Agrupador de caracteres,Separador
+ ,Separador Espacio,Separador
+{,Agrupador de inicio llave,Separador
+},Agrupador de fin llave,Separador
+[,Agrupador de inicio corchete,Separador
+],Agrupador de fin corchete,Separador
+(,Agrupador de inicio paréntesis,Separador
+),Agrupador de fin paréntesis,Separador
+:,Inicio de bloque de texto,Separador
+\t,Separador Tab,Separador
+\n,Separador de Sentencias Enter,Separador
