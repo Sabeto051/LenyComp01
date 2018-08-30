@@ -1,6 +1,11 @@
-lista =[]
-v= [1,2,3,4,5,6]
-lista.append([9,8,7,5,3,1])
-lista.append(v)
-
+lista =[["paco","julio","juan"],["pedro","jasinto","josé"]]
+lista.append(["Camila","Camilo"])
 print(lista)
+
+# string ="Operador Aritmetico"
+# char = "Oper"
+# char2 ="ador"
+# if char+char2 in string:
+#     print ("Fuck lleah")
+# else:
+#     assert False, "Fuck you"

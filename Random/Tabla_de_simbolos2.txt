@@ -37,15 +37,15 @@ print;Imprime en pantalla;Palabra Reservada
 <;Compara dos elementos;Operador Relacional;Separador
 <=;Compara dos elementos;Operador Relacional;Separador
 >=;Compara dos elementos;Operador Relacional;Separador
-.;Permite acceder a una función de la clase;Separador
-";Agrupador de caracteres;Separador
+.;Permite acceder a una función de la clase;Separador Machetazo
+";Agrupador de caracteres;Separador Agrupador
  ;Separador Espacio;Separador
-{;Agrupador de inicio llave;Separador
-};Agrupador de fin llave;Separador
-[;Agrupador de inicio corchete;Separador
-];Agrupador de fin corchete;Separador
-(;Agrupador de inicio paréntesis;Separador
-);Agrupador de fin paréntesis;Separador
-:;Inicio de bloque de texto;Separador
+{;Agrupador de inicio llave;Separador Agrupador
+};Agrupador de fin llave;Separador Agrupador
+[;Agrupador de inicio corchete;Separador Agrupador
+];Agrupador de fin corchete;Separador Agrupador
+(;Agrupador de inicio paréntesis;Separador Agrupador
+);Agrupador de fin paréntesis;Separador Agrupador
+:;Inicio de bloque de texto;Separador Agrupador
 \t;Separador Tab;Separador
 \n;Separador de Sentencias Enter;Separador
