@@ -1,7 +1,12 @@
-lista =[["paco","julio","juan"],["pedro","jasinto","josé"]]
-lista.append(["Camila","Camilo"])
-print(lista)
+# lista =[["paco","julio","juan"],["pedro","jasinto","josé"]]
+# lista.append(["Camila","Camilo"])
+# print(lista)
+matriz=[]
 
+string = ""
+matriz.append(string)
+
+print (matriz)
 # string ="Operador Aritmetico"
 # char = "Oper"
 # char2 ="ador"

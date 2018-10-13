@@ -19,7 +19,7 @@ def indexToken (v,string):
             return i
     return -1
 
-""" Creación de la Tabla de identificador de toquens """
+""" Creación de la Tabla de identificador de simbolos """
 
 def vaciarString(string , matriz):
     if string != "" : # si string no es vacía

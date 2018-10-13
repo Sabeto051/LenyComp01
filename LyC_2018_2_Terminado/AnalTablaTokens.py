@@ -15,7 +15,7 @@ arreglarStr2(code)
 
 def indexToken (v,string):
     for i in range (len(v)):
-        if string == v[i][0]:
+        if string == v[i][2]:
             return i
     return -1
 
@@ -27,7 +27,7 @@ def vaciarString(string , matriz):
             if index != -1 : # string es token reconocible
                 matriz.append(tabla[index])
             else: # string no se reconoce
-                matriz.append([ string , "identificador o palabra reservada" ])
+                matriz.append(tabla[52])
 
 def analizadorLineas(i, j , string, matriz):
     
@@ -36,7 +36,7 @@ def analizadorLineas(i, j , string, matriz):
             return matriz
         index = indexToken(tabla,char)
         if (index != -1): # si char es un token
-            if (tabla[index][2] == "Separador"): # si char es separador
+            if (index == 42 or index == 50): # si char es separador
                 vaciarString(string, matriz)
                 #
                 return analizadorLineas(i,j+1, "" , matriz)

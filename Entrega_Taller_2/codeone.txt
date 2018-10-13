@@ -1,0 +1,15 @@
+def arreglarStr (v):
+xxxxxxxxxxxxxxxxxxxxxxx
+yyyyyyyyyyyyyyyyyyy+oooooooooooooooo
+    for i in range(len(v)):
+doe 
+p+o
+veces01*=rRec34*4589-(4533/vve50)
+    veces54 += rRec34 * 4589 - (4533/vve50)
+
+for i in range (len(palres)):
+    veces.append(0)
+
+                string+=char
+print ("Lord Petroski")
+1234+++23

@@ -1,6 +1,8 @@
-with open("LyC_2018_2_Terminado/Tabla_de_simbolos.txt", "r") as f:
+import CompAnalArit
+
+with open("Entrega_Taller_2/Tabla_de_simbolos.txt", "r") as f:
     tabla = [[str(aaa) for aaa in line.split(';')] for line in f] #Convierte el texto a una Matriz
-with open("LyC_2018_2_Terminado/codeone.txt","r") as f:
+with open("Entrega_Taller_2/codeone.txt","r") as f:
     code = list(f) # convierte el codigo a una lista
 
 def arreglarStr (v):
@@ -21,15 +23,20 @@ def indexToken (v,string):
 
 """ Creación de la Tabla de identificador de simbolos """
 
-v = []
-def addOperacion (i):
+def addOperacion (i, matriz):
     string = ""
     for char in code[i]:
-        if char == "\n" or char == "\t":
+        if char == "\n" or char == "\t" or char == ' ' :
             1+1
         else:
             string += char
-    v.append(string)
+    if string != "":
+        ###########################################
+        ######################################################
+        ##############################################################3
+        # AQUÍ SE ANALIZA LA EXPRESIÓN CON LA GRAMÁTICA
+        CompAnalArit.Principal(string)
+        matriz.append(string)
 
 
 
@@ -41,15 +48,24 @@ def analizadorLineas(i, j , matriz):
         index = indexToken(tabla,char)
         if (index != -1): # si char es un token
             if ("Operador Aritmetico" in tabla[index][2]): # si char es op arit
-                addOperacion(i)
-                #
-                char2 = code[i][j+1]
-                index2 = indexToken(tabla,char+char2)
-                if index2 != -1 : # char+char2 es operador
-                    matriz.append(tabla[index2])
-                    j+=1
-                else : # char es operador de 1 caracter
-                    matriz.append(tabla[index])
+                addOperacion(i,matriz)
+                return matriz
+
+                
+                # char2 = code[i][j+1]
+                # index2 = indexToken(tabla,char+char2)
+                # if index2 != -1 : # char+char2 es token
+                #     if ("Operador Aritmetico" in tabla[index2][2]): # si char+char2 es op arit
+                #         addOperacion(i,matriz)
+                #     else :
+                #         return analizadorLineas(i,j+2, matriz)
+                # else : # char es operador de 1 caracter
+                #     addOperacion(i,matriz)
+                #     return matriz
+                
+
+
+            else:
                 return analizadorLineas(i,j+1, matriz)
         else: # char no es token
             return analizadorLineas(i,j+1, matriz)
@@ -69,4 +85,5 @@ def crearMatrizTabla():
 
 resultado = crearMatrizTabla()
 
-print(v)
+for i in resultado:
+    print(i)
